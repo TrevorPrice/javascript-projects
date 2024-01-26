@@ -35,6 +35,7 @@ function makeRectangle(width, height) {
     return rectangle.slice(0, -1);
   }
   // console.log(makeRectangle(5, 3));
+// Now, go back and rewrite makeSquare to use makeRectangle.
 
 //TODO: Write a function makeDownwardStairs(height) that prints the staircase pattern shown below, with the given height.
 function makeDownwardStairs(height) {
@@ -71,6 +72,10 @@ function makeIsoscelesTriangle(height) {
 // console.log(makeIsoscelesTriangle(5));
 
 //TODO: Write a function makeDiamond(height) that returns a diamond where the triangle formed by the top portion has the given height.
+// function reverse(s) {
+//   return s.split('').reverse().join('');
+// }
+
 function makeDiamond(height) {
   let diamond = '';
   let reversed = '';
