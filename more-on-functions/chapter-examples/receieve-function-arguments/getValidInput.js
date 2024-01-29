@@ -12,6 +12,15 @@ function getValidInput(prompt, isValid) {
     return userInput;
 }
 
+let beginsWithA = function(beginning) {
+  if (beginning == 'A' || beginning == 'a') {
+    return true;
+  }
+
+  return false;
+};
+
+console.log(getValidInput('Enter the letter A: ', beginsWithA));
 // TODO 1: write a validator 
 // that ensures input starts with "a"
 
