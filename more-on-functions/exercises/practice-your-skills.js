@@ -31,13 +31,18 @@ c) Print the new array to confirm your work.
 
 let arr = ['Elocution', 21, 'Clean teeth', 100];
 
-let tripleArr = arr.map(function (n) {
-    if (arr.includes(Number) || arr.includes(String)) {
-        return n*3, arr.splice();
-    } else if (arr.indexOf(String)) {
-        return arr.splice(arr.indexOf(String), 1, 'ARRR!');
-    } else {
-        return arr;
-    }
+// let tripleArr = arr.map(function (n) {
+//     if (arr.includes(Number) || arr.includes(String)) {
+//         return n*3, arr.splice();
+//     } else if (arr.indexOf(String)) {
+//         return arr.splice(arr.indexOf(String), 1, 'ARRR!');
+//     } else {
+//         return arr;
+//     }
+// });
+// console.log(tripleArr);
+
+arr = arr.map((elem) => {
+    return practice(arr)
 });
-console.log(tripleArr);
+console.log(practice(arr));
