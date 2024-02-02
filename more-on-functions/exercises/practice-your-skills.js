@@ -43,6 +43,6 @@ let arr = ['Elocution', 21, 'Clean teeth', 100];
 // console.log(tripleArr);
 
 arr = arr.map((elem) => {
-    return practice(arr)
+    return practice(elem)
 });
 console.log(practice(arr));
