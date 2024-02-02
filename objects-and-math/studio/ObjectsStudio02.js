@@ -1,11 +1,26 @@
 // Code your orbitCircumference function here:
-
-
+function orbitCircumference(radius) {
+  return Math.round(2*Math.PI*radius)
+}
+console.log(orbitCircumference(2000));
 // Code your missionDuration function here:
+let orbitRadius = 2000;
+let orbitalSpeed = 28000;
 
+function missionDuration(numberOfOrbits, orbitRadius, orbitalSpeed) {
+  numberOfOrbits = Math.round(missionTime = ((orbitRadius/orbitalSpeed)*10)/10);
+  return missionTime
+}
+console.log(missionDuration(5, 2000, 28000));
+console.log(`The mission will travel ${orbitalSpeed} km around the planet, and it will take ${missionTime} hours to complete.`)
 
 // Copy/paste your selectRandomEntry function here:
-
+function selectRandomEntry(candidates) {
+  const randomIndex = Math.floor(Math.random()*idNumbers.length);
+  const randomIdNumber = idNumbers[randomIndex];
+  const selectedCandidate = candidates.find(candidate => candidate.astronautID === randomIdNumber);
+  return selectedCandidate;
+}
 
 // Code your oxygenExpended function here:
 

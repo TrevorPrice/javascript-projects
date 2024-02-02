@@ -78,7 +78,7 @@ function fitnessTest(candidates){
    }
    return results;
   }
-console.log(fitnessTest(crew))
+console.log(fitnessTest(crew));
 // fitnessTet(crew).map(result => {
 //    console.log(result);
 // })
