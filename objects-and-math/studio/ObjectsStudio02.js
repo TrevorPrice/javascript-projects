@@ -8,7 +8,7 @@ let orbitRadius = 2000;
 let orbitalSpeed = 28000;
 
 function missionDuration(numberOfOrbits, orbitRadius, orbitalSpeed) {
-  numberOfOrbits = Math.round(missionTime = ((orbitRadius/orbitalSpeed)*10)/10);
+  numberOfOrbits = missionTime = Math.round(((orbitRadius/orbitalSpeed)*10)/10);
   return missionTime
 }
 console.log(missionDuration(5, 2000, 28000));
