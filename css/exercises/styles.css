@@ -1,6 +1,6 @@
 /* Start adding your styling below! */ 
 body {
-    background-color: yellow;
+    background-color: pink;
 }
 p {
     color: green;
@@ -11,7 +11,7 @@ h1 {
 .center {
     text-align: center;
 }
-.cool-text {
+#cool-text {
     color: blue;
 }
 #list-color {
